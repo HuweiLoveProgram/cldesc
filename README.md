@@ -1,4 +1,4 @@
-sdescript
-=========
+cldesc
+======
 
-Sorts a descript.ion file, removing entries that no longer exist.
+Cleans and sorts a descript.ion file, removing entries that no longer exist.
