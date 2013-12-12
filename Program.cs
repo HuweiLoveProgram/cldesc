@@ -327,9 +327,9 @@ namespace cldesc
 			string format = "{0,-" + indb + "}{1}";
 			//string exampleFormat = "{0}\n\n{1}";
 
-			Console.WriteLine(Text.Wrap("cldesc | cleans up a descript.ion file", width, 0, 12));
-			Console.WriteLine(Text.Wrap("          | created by kody@bricksoft.com", width, 0, 12));
-			Console.WriteLine(Text.Wrap("          | https://www.github.com/kodybrown/cldesc", width, 0, 12));
+			Console.WriteLine(Text.Wrap("cldesc | Cleans up a descript.ion file", width, 0, 12));
+			Console.WriteLine(Text.Wrap("       | Created 2007-2013 @wasatchwizard", width, 0, 12));
+			Console.WriteLine(Text.Wrap("       | https://www.github.com/kodybrown/cldesc", width, 0, 12));
 			Console.WriteLine();
 			Console.WriteLine("USAGE:");
 			Console.WriteLine(Text.Wrap("cldesc.exe [options] [file]", width, inda));
@@ -341,7 +341,7 @@ namespace cldesc
 			Console.WriteLine(Text.Wrap("* These items can be set as environment variables using:", width, inda, inda + inda));
 			Console.WriteLine(Text.Wrap(conChar + " set cldescrip_<arg>=true|false", width, inda + 2, inda + 4));
 			Console.WriteLine();
-			Console.WriteLine(Text.Wrap(string.Format(format, "<file>", "Specify the file to clean up. If a file is not specified, assumes `descript.ion` in the current directory."), width, inda, indc));
+			Console.WriteLine(Text.Wrap(string.Format(format, "[file]", "Specify the file to clean up. If a file is not specified, assumes `descript.ion` in the current directory."), width, inda, indc));
 			Console.WriteLine(Text.Wrap("A file (or content) can be piped to `cldesc` via stdin. In such cases the output will always be sent to stdout.", width, indc));
 			Console.WriteLine();
 

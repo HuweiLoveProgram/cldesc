@@ -8,14 +8,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Reflection.AssemblyTitle("sdescript ver:0.9.31212.2")]
+[assembly: System.Reflection.AssemblyTitle("sdescript ver:0.9.31212.3")]
 [assembly: System.Reflection.AssemblyDescription("sdescript")]
 [assembly: System.Reflection.AssemblyProduct("sdescript")]
 [assembly: System.Reflection.AssemblyCopyright("Copyright (C) 2003-2013 Kody Brown.")]
 [assembly: System.Runtime.InteropServices.ComVisible(false)]
 [assembly: System.CLSCompliant(false)]
 [assembly: System.Runtime.InteropServices.Guid("A6B472E3-EEF4-4C62-95B2-E0834BA7B9BB")]
-[assembly: System.Reflection.AssemblyVersion("0.9.31212.2")]
-[assembly: System.Reflection.AssemblyFileVersion("0.9.31212.2")]
+[assembly: System.Reflection.AssemblyVersion("0.9.31212.3")]
+[assembly: System.Reflection.AssemblyFileVersion("0.9.31212.3")]
 
 
